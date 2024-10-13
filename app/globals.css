@@ -2,7 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* styles/globals.css */
+
+body {
+    background-image: url('/hospital.jpg/');
+    background-size: cover;
+    /* To make the image cover the entire background */
+    background-repeat: no-repeat;
+    /* Avoid repeating the image */
+    background-position: center;
+    /* Center the image */
+    background-attachment: fixed;
+    /* Keep the image fixed when scrolling */
+}
+
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -24,4 +39,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
